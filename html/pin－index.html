@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>拼团首页</title>
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta content="telephone=no" name="format-detection" />
+  <meta content="email=no" name="format-detection" />
+  <link href="../css/base.css" rel="stylesheet" type="text/css">
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <script src="../js/jquery-1.8.2.min.js" type="javascript"></script>
+  <script>
+  window.onload = window.onresize = function() {
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            var _html = document.getElementsByTagName('html')[0];
+            _html.style.fontSize = view_width / 20 + 'px';
+            // $(".warp").show();
+      }
+  </script>
+</head>
+
+
+<body>
+  <div class="wrap index-wrap">
+    <div class="header clearfix">
+      <a href="javascript:;" class="return left"></a>
+      <p class="center red">拼团</p>
+      <div class="index-list right">
+        <i class="logo"></i>
+        <ul class="list-content">
+          <li class="message"><span></span><i>消息</i></li>
+          <li class="home"><span></span><i>首页</i></li>
+          <li class="share"><span></span><i>分享</i></li>
+        </ul>
+      </div>  
+      
+    </div>
+    <img class="image-show" src="../images/demo.jpg" alt="">
+
+    <div class="index-item">
+      <dl>
+        <dt>
+          <img class='image-show' src="../images/demo.jpg" alt="">
+        </dt>
+        <dd>
+          <p>Apple 苹果 iPhone6S iPhone6S Plus 16G/64G/128G版 移动联通电信4G手机 </p>
+        </dd>
+        <dd class="descript">
+          <p>
+            <em>5人团</em>
+            <i>¥8999</i>
+            <span>单买价¥7888</span>
+          </p>
+          <a href="javascript:;" class="btn prize"></a>
+        </dd>
+      </dl>
+      <dl>
+        <dt>
+          <img class='image-show' src="../images/demo.jpg" alt="">
+        </dt>
+        <dd>
+          <p>Apple 苹果 iPhone6S iPhone6S Plus 16G/64G/128G版 移动联通电信4G手机 </p>
+        </dd>
+        <dd class="descript">
+          <p>
+            <em></em>
+            <i>¥8999</i>
+            <span>单买价¥7888</span>
+          </p>
+          <a href="javascript:;" class="btn qiang"></a>
+        </dd>
+      </dl>
+    </div>
+
+  </div>
+</body>
+</html>

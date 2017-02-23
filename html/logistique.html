@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>物流详情</title>
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta content="telephone=no" name="format-detection" />
+  <meta content="email=no" name="format-detection" />
+  <link href="../css/base.css" rel="stylesheet" type="text/css">
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <script src="../js/jquery-1.8.2.min.js" type="javascript"></script>
+  <script>
+  window.onload = window.onresize = function() {
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            var _html = document.getElementsByTagName('html')[0];
+            _html.style.fontSize = view_width / 20 + 'px';
+            // $(".warp").show();
+      }
+  </script>
+</head>
+
+
+<body>
+  <div class="wrap wl-wrap">
+    <div class="header clearfix">
+      <a href="javascript:;" class="return left"></a>
+      <p class="center">物流详情</p>
+    </div>
+   <div class="item">
+     <div class="item-head item-common">
+       <p>
+        <span>物流公司：</span>
+        <i>圆通快递</i>
+      </p>
+      <p>
+        <span>物流单号：</span>
+        <i>1126376736</i>
+      </p>
+     </div>
+     <div class="item-common item-content">
+       <p class="title">商品信息</p>
+       <div class="goodmess clearfix">
+         <img src="../images/demo.jpg"  alt="">
+         <div class="gooddes">
+           <h2>【7万人点赞】御泥坊清爽平衡黑面膜21片补水平面</h2>
+           <p class="fu-title">规格：21片明星版</p>
+           <dl class="clearfix">
+             <dt class="left">
+               <span>99090</span>
+               <i>909090</i>
+             </dt>
+             <dd>
+               <a href="javascript:;">-</a>
+               <span>1</span>
+               <a href="javascript:;">+</a>
+             </dd>
+           </dl>
+         </div>
+         
+       </div>
+     </div>
+     <div class="item-common item-footer">
+       <p class="title">物流信息</p>
+       <ul>
+         <li class="active">
+          <h2>
+            <span></span>
+            <em>河南省郑州市金水区丰乐路 派件中</em>
+          </h2>
+          <i>2016年06月19日 08:49</i>
+         </li>
+         <li class="">
+          <h2>
+            <span></span>
+            <em>河南省郑州市金水区丰乐路 派件中</em>
+          </h2>
+          <i>2016年06月19日 08:49</i>
+         </li>
+       </ul>
+     </div>
+   </div>
+  
+
+  </div>
+</body>
+</html>

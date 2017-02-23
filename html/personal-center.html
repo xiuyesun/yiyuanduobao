@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人中心</title>
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta content="telephone=no" name="format-detection" />
+  <meta content="email=no" name="format-detection" />
+  <link href="../css/base.css" rel="stylesheet" type="text/css">
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <script src="../js/jquery-1.8.2.min.js" type="javascript"></script>
+  <script>
+  window.onload = window.onresize = function() {
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            var _html = document.getElementsByTagName('html')[0];
+            _html.style.fontSize = view_width / 20 + 'px';
+            // $(".warp").show();
+      }
+  </script>
+</head>
+
+
+<body>
+  <div class="wrap personal-wrap">
+    <div class="personal-header clearfix">
+      <img src="../images/demo.jpg" alt="">
+      <span>百里香季节</span>
+    </div> 
+
+    <dl class="personal-center">
+      <dt>
+        <div class="menu clearfix">
+          <a href="javascript:;">
+            <span class="dingd"></span>
+            <i>我的订单</i>
+            <strong href="javascript:;" class="right see">查看全部订单<em></em></strong>
+          </a>
+        </div>
+        <div class="menudes clearfix">
+          <a href="javacript:;">
+            <img src="../images/center-pay.png" alt="">
+            <p>待付款</p>
+          </a>
+           <a href="javacript:;">
+            <img src="../images/center-fa.png" alt="">
+            <p>待发货</p>
+          </a>
+           <a href="javacript:;">
+            <img src="../images/center-shou.png" alt="">
+            <p>待收货</p>
+          </a>
+           <a href="javacript:;">
+            <img src="../images/center-ping.png" alt="">
+            <p>待评价</p>
+          </a>
+           <a href="javacript:;">
+            <img src="../images/center-hou.png" alt="">
+            <p>退款／售后</p>
+          </a>
+        </div>
+      </dt>
+      <dd class="menu clearfix">
+        <a href="javascript:;">
+          <span class="pin"></span>
+          <i>我的拼团</i>
+          <em href="javascript:;"></em>
+        </a>
+      </dd>
+      <dd class="menu clearfix">
+        <a href="javascript:;">
+          <span class="address"></span>
+          <i>收货地址</i>
+          <em href="javascript:;"></em>
+        </a>
+      </dd>
+      <dd class="menu clearfix">
+        <a href="javascript:;">
+          <span class="you"></span>
+          <i>我的优惠券</i>
+          <em href="javascript:;"></em>
+        </a>
+      </dd>
+      <dd class="menu clearfix">
+        <a href="javascript:;">
+          <span class="shop"></span>
+          <i>我是商家</i>
+          <em href="javascript:;"></em>
+        </a>
+      </dd>
+    </dl>
+    <a href="javascript:;" class="quite">退出登录</a>
+    
+    <div class="footer">
+      <a class="home " href="javascript:;">
+        <span></span>
+        <i>首页</i>
+      </a>
+      <a class="fenlei " href="javascript:;">
+        <span></span>
+        <i>分类</i>
+      </a>
+      <a class="car " href="javascript:;">
+        <span></span>
+        <i>购物车</i>
+      </a>
+      <a class="center active" href="javascript:;">
+        <span></span>
+        <i>个人中心</i>
+      </a>
+    </div>
+
+  </div>
+</body>
+</html>
